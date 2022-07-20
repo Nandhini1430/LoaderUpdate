@@ -11,7 +11,7 @@ public class Loader{
     
     public init(){}
     
-    let alert=UIAlertController(title: nil, message: "Please wait...", preferredStyle: .alert)
+    let alert=UIAlertController(title: nil, message: "Please wait for some tym...", preferredStyle: .alert)
     
     public func loader(color:UIColor)->(UIAlertController){
         
