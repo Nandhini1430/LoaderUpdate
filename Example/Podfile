@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LoaderUpdate_Example' do
+  pod 'LoaderUpdate', :path => '../'
+
+  target 'LoaderUpdate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
